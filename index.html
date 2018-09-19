@@ -6,11 +6,31 @@
 
 	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 
+	<link rel="stylesheet" href="screen.css">
+
 
 	<title>Video Example</title>
 
 </head>
 <body>
-	<h1>Video Example</h1>
+	
+<!-- Video from https://coverr.co/ -->
+<article>
+  <div class="video-wrapper">
+    <h1 class="leading-none p-4 text-white text-3xl uppercase video-title md:p-8 md:text-5xl">
+      Video Background
+    </h1>
+    <video autoplay loop muted class="w-full">
+      <source src="video/road-candies.mp4" type="video/mp4" />Your browser does not support the video tag.
+      <source src="video/road-candies.webm" type="video/webm" />Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="leading-normal mx-auto my-12 px-4 max-w-md">
+    <p class="mb-4 md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem error iure quo ea dolore, iste ad assumenda ducimus sunt. Rerum nulla ipsum unde exercitationem ea atque explicabo tempore perferendis delectus?</p>
+    <p class="md:text-xl">Laudantium cumque mollitia maxime, magni pariatur blanditiis laborum quisquam. Iure veniam deserunt debitis minus animi at fugiat doloremque a tempore obcaecati adipisci voluptate molestiae, amet odio, unde velit! Dolore, molestiae.</p>
+  </div>
+</article>
+
 </body>
 </html>
